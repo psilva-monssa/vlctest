@@ -36,7 +36,7 @@ const App = () => {
               hwDecoderEnabled: 1,
               hwDecoderForced: 1,
               uri:
-                'rtsp://psilva:q22334455@10.20.80.210/Streaming/Channels/502',
+                'rtsp://psilva:q22334455@190.3.107.187:554/Streaming/Channels/502',
               initOptions: [
                 '--no-audio',
                 '--rtsp-tcp',
