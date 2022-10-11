@@ -35,16 +35,19 @@ const App = () => {
               initType: 2,
               hwDecoderEnabled: 1,
               hwDecoderForced: 1,
-              uri:
-                'rtsp://psilva:q22334455@190.3.107.187:554/Streaming/Channels/502',
+              uri: 'rtsp://psilva:q22334455@190.3.107.187:554/Streaming/Channels/202',
+              mediaOptions: {
+                ':network-caching' : 400,         
+                ':live-caching' : 400         
+	      }, 
               initOptions: [
                 '--no-audio',
                 '--rtsp-tcp',
-                '--network-caching=150',
-                '--rtsp-caching=150',
+                '--network-caching=400',
+                '--rtsp-caching=400',
                 '--no-stats',
-                '--tcp-caching=150',
-                '--realrtsp-caching=150',
+                '--tcp-caching=400',
+                '--realrtsp-caching=400',
               ],
             }}
             autoplay={true}
