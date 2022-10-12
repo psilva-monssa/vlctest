@@ -35,7 +35,7 @@ const App = () => {
               initType: 2,
               hwDecoderEnabled: 1,
               hwDecoderForced: 1,
-              uri: 'rtsp://psilva:q22334455@190.3.107.187:554/Streaming/Channels/202',
+              uri: 'rtsp://psilva:q22334455@190.3.107.187:554/Streaming/Channels/401',
               mediaOptions: {
                 ':network-caching' : 400,         
                 ':live-caching' : 400         
